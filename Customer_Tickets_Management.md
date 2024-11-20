@@ -55,10 +55,10 @@
 
 ## SLA
 - Customer bugs (OTRS ID attached to Jira tickets) are part of Talend SLA engagement. SLA is calculated from the time (precise time, not just the day) the ticket was created or the status changed to New until the current date:
-  - Blocker issue: 2 business days
-  - Critical issues: 3 business days
-  - Major issues: 10 business days
-  - Minor: no SLA
+  - Blocker issue 2 business days
+  - Critical issues 3 business days
+  - Major issues 10 business days
+  - Minor no SLA
 
 - To check when SLA expires, review SLA script results in the `#tmc_customer_issues` Slack channel. The script runs multiple times daily.
 - SLA stops if a ticket is set to On Hold, Accepted, or Rejected. SLA restarts (being reset) if a ticket is set back to New.
